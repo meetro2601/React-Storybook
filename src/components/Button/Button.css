@@ -1,0 +1,15 @@
+.primary{
+    background-color: mediumslateblue;
+}
+
+.secondary{
+    background-color: chocolate;
+}
+
+.success{
+    background-color: darkcyan;
+}
+
+.danger{
+    background-color: maroon;
+}
