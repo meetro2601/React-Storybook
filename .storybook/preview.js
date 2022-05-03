@@ -16,6 +16,6 @@ export const parameters = {
 addDecorator((storyFn,context)=>withConsole()(storyFn)(context))
 
 // Global decorator for all stories
-export const decorators = [
+/* export const decorators = [
   Story => <Layout><Story/></Layout>
-]
+] */

@@ -1,0 +1,546 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Form/Button Args Danger 1`] = `
+<button
+  className="p-3 text-white rounded-lg danger"
+  onClick={[Function]}
+>
+  Args Danger
+</button>
+`;
+
+exports[`Storyshots Form/Button Args Primary 1`] = `
+<button
+  className="p-3 text-white rounded-lg primary"
+  onClick={[Function]}
+>
+  Args Primary
+</button>
+`;
+
+exports[`Storyshots Form/Button Danger 1`] = `
+<button
+  className="p-3 text-white rounded-lg danger"
+  onClick={[Function]}
+>
+  Danger
+</button>
+`;
+
+exports[`Storyshots Form/Button PrimaryBtn 1`] = `
+<button
+  className="p-3 text-white rounded-lg primary"
+  onClick={[Function]}
+>
+  Primary
+</button>
+`;
+
+exports[`Storyshots Form/Button Secondary 1`] = `
+<button
+  className="p-3 text-white rounded-lg secondary"
+  onClick={[Function]}
+  onMouseOver={[Function]}
+>
+  Secondary
+</button>
+`;
+
+exports[`Storyshots Form/Button Success 1`] = `
+<button
+  className="p-3 text-white rounded-lg success"
+>
+  Success
+</button>
+`;
+
+exports[`Storyshots Form/Input Component Large Input 1`] = `
+<input
+  className="border-2 border-black p-2"
+  maxLength={50}
+  placeholder="Max limit is 50 characters"
+  type="text"
+/>
+`;
+
+exports[`Storyshots Form/Input Component Medium Input 1`] = `
+<input
+  className="border-2 border-black p-2"
+  maxLength={25}
+  placeholder="Max limit is 25 characters"
+  type="text"
+/>
+`;
+
+exports[`Storyshots Form/Input Component Small Input 1`] = `
+<input
+  className="border-2 border-black p-2"
+  maxLength={12}
+  placeholder="Max limit is 12 characters"
+  type="text"
+/>
+`;
+
+exports[`Storyshots Form/Subscription Basic Subscription Form 1`] = `
+Array [
+  <input
+    className="border-2 border-black p-2"
+    maxLength={50}
+    placeholder="Max limit is 50 characters"
+    type="text"
+  />,
+  <button
+    className="p-3 text-white rounded-lg primary"
+    onClick={[Function]}
+  >
+    Primary
+  </button>,
+]
+`;
+
+exports[`Storyshots Task Archived 1`] = `
+<div
+  className=" bg-white border-b-2 p-4 flex justify-between items-center"
+>
+  <div
+    className=""
+  >
+    <input
+      className="mr-2"
+      defaultChecked={true}
+      name="checked"
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <input
+      className="bg-transparent"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className=""
+  />
+</div>
+`;
+
+exports[`Storyshots Task Default 1`] = `
+<div
+  className=" bg-white border-b-2 p-4 flex justify-between items-center"
+>
+  <div
+    className=""
+  >
+    <input
+      className="mr-2"
+      defaultChecked={false}
+      name="checked"
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <input
+      className="bg-transparent"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className=""
+  >
+    <button
+      className="bg-slate-300 p-1"
+      onClick={[Function]}
+    >
+      Archive
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Task Pinned 1`] = `
+<div
+  className=" bg-white border-b-2 p-4 flex justify-between items-center"
+>
+  <div
+    className=""
+  >
+    <input
+      className="mr-2"
+      defaultChecked={false}
+      name="checked"
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <input
+      className="bg-transparent"
+      readOnly={true}
+      type="text"
+      value="Test Task"
+    />
+  </div>
+  <div
+    className=""
+  >
+    <button
+      className="bg-slate-300 p-1"
+      onClick={[Function]}
+    >
+      Archive
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tasklist Default List 1`] = `
+<div
+  className="p-10"
+>
+  <div>
+    <div
+      className=" bg-white border-b-2 p-4 flex justify-between items-center"
+    >
+      <div
+        className=""
+      >
+        <input
+          className="mr-2"
+          defaultChecked={false}
+          name="checked"
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <input
+          className="bg-transparent"
+          readOnly={true}
+          type="text"
+          value="Task 1"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <button
+          className="bg-slate-300 p-1"
+          onClick={[Function]}
+        >
+          Archive
+        </button>
+      </div>
+    </div>
+    <div
+      className=" bg-white border-b-2 p-4 flex justify-between items-center"
+    >
+      <div
+        className=""
+      >
+        <input
+          className="mr-2"
+          defaultChecked={false}
+          name="checked"
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <input
+          className="bg-transparent"
+          readOnly={true}
+          type="text"
+          value="Task 2"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <button
+          className="bg-slate-300 p-1"
+          onClick={[Function]}
+        >
+          Archive
+        </button>
+      </div>
+    </div>
+    <div
+      className=" bg-white border-b-2 p-4 flex justify-between items-center"
+    >
+      <div
+        className=""
+      >
+        <input
+          className="mr-2"
+          defaultChecked={false}
+          name="checked"
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <input
+          className="bg-transparent"
+          readOnly={true}
+          type="text"
+          value="Task 3"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <button
+          className="bg-slate-300 p-1"
+          onClick={[Function]}
+        >
+          Archive
+        </button>
+      </div>
+    </div>
+    <div
+      className=" bg-white border-b-2 p-4 flex justify-between items-center"
+    >
+      <div
+        className=""
+      >
+        <input
+          className="mr-2"
+          defaultChecked={false}
+          name="checked"
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <input
+          className="bg-transparent"
+          readOnly={true}
+          type="text"
+          value="Task 4"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <button
+          className="bg-slate-300 p-1"
+          onClick={[Function]}
+        >
+          Archive
+        </button>
+      </div>
+    </div>
+    <div
+      className=" bg-white border-b-2 p-4 flex justify-between items-center"
+    >
+      <div
+        className=""
+      >
+        <input
+          className="mr-2"
+          defaultChecked={false}
+          name="checked"
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <input
+          className="bg-transparent"
+          readOnly={true}
+          type="text"
+          value="Task 5"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <button
+          className="bg-slate-300 p-1"
+          onClick={[Function]}
+        >
+          Archive
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tasklist Loading 1`] = `
+<div
+  className="p-10"
+>
+  <div
+    className="bg-white"
+  >
+    Loading...
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tasklist No Tasks 1`] = `
+<div
+  className="p-10"
+>
+  <div
+    className="bg-white"
+  >
+    No Tasks Found
+  </div>
+</div>
+`;
+
+exports[`Storyshots Tasklist With Pinned List 1`] = `
+<div
+  className="p-10"
+>
+  <div>
+    <div
+      className=" bg-white border-b-2 p-4 flex justify-between items-center"
+    >
+      <div
+        className=""
+      >
+        <input
+          className="mr-2"
+          defaultChecked={false}
+          name="checked"
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <input
+          className="bg-transparent"
+          readOnly={true}
+          type="text"
+          value="Task 4 (Pinned)"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <button
+          className="bg-slate-300 p-1"
+          onClick={[Function]}
+        >
+          Archive
+        </button>
+      </div>
+    </div>
+    <div
+      className=" bg-white border-b-2 p-4 flex justify-between items-center"
+    >
+      <div
+        className=""
+      >
+        <input
+          className="mr-2"
+          defaultChecked={false}
+          name="checked"
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <input
+          className="bg-transparent"
+          readOnly={true}
+          type="text"
+          value="Task 5 (Pinned)"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <button
+          className="bg-slate-300 p-1"
+          onClick={[Function]}
+        >
+          Archive
+        </button>
+      </div>
+    </div>
+    <div
+      className=" bg-white border-b-2 p-4 flex justify-between items-center"
+    >
+      <div
+        className=""
+      >
+        <input
+          className="mr-2"
+          defaultChecked={false}
+          name="checked"
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <input
+          className="bg-transparent"
+          readOnly={true}
+          type="text"
+          value="Task 1"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <button
+          className="bg-slate-300 p-1"
+          onClick={[Function]}
+        >
+          Archive
+        </button>
+      </div>
+    </div>
+    <div
+      className=" bg-white border-b-2 p-4 flex justify-between items-center"
+    >
+      <div
+        className=""
+      >
+        <input
+          className="mr-2"
+          defaultChecked={false}
+          name="checked"
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <input
+          className="bg-transparent"
+          readOnly={true}
+          type="text"
+          value="Task 2"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <button
+          className="bg-slate-300 p-1"
+          onClick={[Function]}
+        >
+          Archive
+        </button>
+      </div>
+    </div>
+    <div
+      className=" bg-white border-b-2 p-4 flex justify-between items-center"
+    >
+      <div
+        className=""
+      >
+        <input
+          className="mr-2"
+          defaultChecked={false}
+          name="checked"
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <input
+          className="bg-transparent"
+          readOnly={true}
+          type="text"
+          value="Task 3"
+        />
+      </div>
+      <div
+        className=""
+      >
+        <button
+          className="bg-slate-300 p-1"
+          onClick={[Function]}
+        >
+          Archive
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

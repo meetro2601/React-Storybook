@@ -1,8 +1,11 @@
 import React from 'react'
+import Task from './components/Task/Task'
 
 function App() {
   return (
-    <div>App</div>
+    <div>App
+      <Task/>
+    </div>
   )
 }
 
