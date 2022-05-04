@@ -18,11 +18,17 @@ function Tasklist(props) {
   });
 
   const status = useSelector(state => state.status)
+  const storeState = useSelector(state => state)
 
   const dispatch = useDispatch()
 
   const onPin = (id)=>{
-    dispatch(updateTaskState({id, newTaskState:"TASK_PINNED"}))
+    const task =storeState.tasks.find((task) => task.id === id);
+      if (task.state === "TASK_PINNED") {
+        dispatch(updateTaskState({id, newTaskState:"TASK_INBOX"})) 
+      }else{
+        dispatch(updateTaskState({id, newTaskState:"TASK_PINNED"}))
+      }
   }
 
   const onArchive = (id)=>{
@@ -30,7 +36,7 @@ function Tasklist(props) {
   }
 
   if (status === 'loading') {
-    return <div className="bg-white">Loading...</div>;
+    return <div className="bg-white" data-testid='loading'>Loading...</div>;
   }
 
   if (tasks.length === 0) {

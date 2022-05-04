@@ -13,7 +13,11 @@ function Task(props) {
         <div className=''>
           {
             task.state !== "TASK_ARCHIVED" && 
-            <button className='bg-slate-300 p-1' onClick={()=>onPinTask(task.id)}>Archive</button>
+            <button aria-label={`pinBtn-${task.id}`} className='bg-slate-300 p-1' onClick={()=>onPinTask(task.id)}>
+              {
+                task.state === 'TASK_PINNED' ? 'Pinned' : 'Pin'
+              }
+            </button>
           }
         </div>
     </div>

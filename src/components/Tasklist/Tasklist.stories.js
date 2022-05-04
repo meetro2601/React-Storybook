@@ -3,7 +3,13 @@ import Tasklist from "./Tasklist";
 import * as TaskStories from '../Task/Task.stories'
 import { configureStore, createSlice } from '@reduxjs/toolkit';
 import { Provider } from "react-redux";
-import { DefaultTaskBoxData } from "../../lib/Store";
+import { defaultTasks } from "../../lib/Store";
+
+const MockedTaskBoxData = {
+    tasks: defaultTasks,
+    status:'idle',
+    error:null
+}
 
 const MockStoreProvider = (props)=>{
     const {taskboxState,children} = props
@@ -44,7 +50,7 @@ export default {
 const Template = () => <Tasklist></Tasklist>
 
 export const DefaultList = Template.bind({})
-DefaultList.decorators = [story =><MockStoreProvider taskboxState={DefaultTaskBoxData}>{story()}</MockStoreProvider>]
+DefaultList.decorators = [story =><MockStoreProvider taskboxState={MockedTaskBoxData}>{story()}</MockStoreProvider>]
 /* DefaultList.args = {
     tasks : [
         {...TaskStories.Default.args.task,id:'1',title:"Task 1"}, 
@@ -59,13 +65,13 @@ export const WithPinnedList = Template.bind({})
 WithPinnedList.decorators = [
     story => {
         const pinnedTasks = [
-            ...DefaultTaskBoxData.tasks.slice(0,3),
+            ...MockedTaskBoxData.tasks.slice(0,3),
             {...TaskStories.Pinned.args.task,id:'4',title:'Task 4 (Pinned)'},
         {...TaskStories.Pinned.args.task,id:'5',title:'Task 5 (Pinned)'}
         ]
 
         return (
-            <MockStoreProvider taskboxState={{...DefaultTaskBoxData,tasks:pinnedTasks}}>{story()}</MockStoreProvider>
+            <MockStoreProvider taskboxState={{...MockedTaskBoxData,tasks:pinnedTasks}}>{story()}</MockStoreProvider>
         )
     }
 ]
@@ -78,14 +84,14 @@ WithPinnedList.decorators = [
 } */
 
 export const Loading = Template.bind({})
-Loading.decorators = [story =><MockStoreProvider taskboxState={{...DefaultTaskBoxData,status:'loading'}}>{story()}</MockStoreProvider>]
+Loading.decorators = [story =><MockStoreProvider taskboxState={{...MockedTaskBoxData,status:'loading'}}>{story()}</MockStoreProvider>]
 /* Loading.args = {
     tasks:[],
     loading:true
 } */
 
 export const NoTasks = Template.bind({})
-NoTasks.decorators = [story => <MockStoreProvider taskboxState={{...DefaultTaskBoxData,tasks:[]}}>{story()}</MockStoreProvider>]
+NoTasks.decorators = [story => <MockStoreProvider taskboxState={{...MockedTaskBoxData,tasks:[]}}>{story()}</MockStoreProvider>]
 /* NoTasks.args = {
     ...Loading.args,
     loading: false

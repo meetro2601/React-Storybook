@@ -1,11 +1,13 @@
 import React from 'react'
-import Task from './components/Task/Task'
+import store from './lib/Store'
+import {Provider} from 'react-redux'
+import InboxScreen from './components/InboxScreen'
 
 function App() {
   return (
-    <div>App
-      <Task/>
-    </div>
+    <Provider store={store}>
+      <InboxScreen/>
+    </Provider>
   )
 }
 
